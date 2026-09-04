@@ -1,0 +1,13 @@
+* text=auto
+
+# Count source languages on GitHub
+*.py linguist-detectable
+*.html linguist-detectable
+*.sh linguist-detectable
+*.bat linguist-detectable
+*.ipynb linguist-detectable
+
+# Keep minified vendor assets out of language stats
+*.min.css linguist-vendored
+*.min.js linguist-vendored
+job_application_ai_agent/ui/static/** linguist-vendored
